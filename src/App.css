@@ -1,0 +1,81 @@
+.div-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;  /* Activa Flexbox */
+    justify-content: justify;  /* Centra los elementos horizontalmente */
+    padding: 5px;
+  }
+  
+  .div-footer div {
+    margin: 0 280px;  /* Ajusta el espacio entre los elementos */
+  }
+
+  .divTitulo{
+    text-align: center;
+    color: black;
+    background-color: red;
+  }
+
+  .Introduccion{
+    background-color: grey;
+  }
+  
+ .div-home{
+    background-color: grey;
+ }
+
+/*   login*/
+.bodyLogin , .bodyLogOut{
+    background-color: black;   /* Fondo negro */
+    color: white;              /* Texto en blanco para que sea visible en el fondo negro */
+    min-height: 100vh;          /* Asegura que el fondo ocupe toda la altura de la ventana */
+    display: flex;              /* Usamos flexbox para centrar el formulario */
+    justify-content: center;    /* Centrado horizontal */
+    align-items: center;        /* Centrado vertical */
+  }
+  
+  .FormLogin {
+    width: 150%;
+    max-width: 800px;
+    padding: 20px;              /* Un poco de espacio alrededor del formulario */
+    background-color: #333;     /* Fondo oscuro para el formulario */
+    border-radius: 8px;         /* Bordes redondeados para el formulario */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para que resalte */
+  }
+  
+  .FormLogin .form-control {
+    background-color: #555;     /* Fondo oscuro para los inputs */
+    color: white;               /* Texto en blanco dentro de los inputs */
+    border: 1px solid #444;     /* Borde sutil para los inputs */
+  }
+  
+  .FormLogin .form-control::placeholder {
+    color: #bbb;                /* Color del texto del placeholder */
+  }
+  
+  .FormLogin .btn-primary {
+    background-color: #007bff;  /* Color personalizado para el botón */
+    border-color: #007bff;      /* Borde del botón */
+  }
+  
+  .FormLogin .btn-primary:hover {
+    background-color: #0056b3;  /* Color del botón cuando se pase */
+  }
+  /* fin login*/
+
+  /* home -> homeusu*/
+
+  .bodyHusu , .bodyEdicionUser , .bodyEstadisticas , .bodyEdicionAdmin , .bodyReporte , .bodyAltaAdmin{
+    background-color: black;   /* Fondo negro */
+    color: white;              /* Texto en blanco para que sea visible en el fondo negro */
+    min-height: 100vh;          /* Asegura que el fondo ocupe toda la altura de la ventana */
+    display: flex;              /* Usamos flexbox para centrar el formulario */
+    justify-content: center;    /* Centrado horizontal */
+    align-items: center;        /* Centrado vertical */
+  }
+  /*fin / home -> homeusu */
