@@ -34,6 +34,9 @@ function NavBarHomeUsu() {
             </NavDropdown>
 
             <NavDropdown title="Usuarios" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="/HomeUserAdmin/Alta/AltaUsuarios">
+                Alta Usuario
+              </NavDropdown.Item>
               <NavDropdown.Item href="/HomeUserAdmin/Edicion/EdicionUser">
                 Editar Usuario
               </NavDropdown.Item>
