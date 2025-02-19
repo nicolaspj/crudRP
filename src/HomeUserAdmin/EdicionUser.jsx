@@ -3,7 +3,7 @@ import "../App.css";
 function EdicionUser() {
   return (
     <div className="bodyEdicionUser">
-      <h1>nooo jajaj</h1>
+      <h1>Sitio en construccion</h1>
     </div>
   );
 }
