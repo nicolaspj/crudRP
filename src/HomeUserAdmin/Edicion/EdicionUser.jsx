@@ -1,10 +1,11 @@
 import "../../App.css";
+import EdicionUser from "./InfoUsers";
 
-function EdicionUser() {
+function EdicionUsers() {
   return (
     <div className="bodyEdicionUser">
-      <h1>Sitio en construccion</h1>
+      <EdicionUser />
     </div>
   );
 }
-export default EdicionUser;
+export default EdicionUsers;

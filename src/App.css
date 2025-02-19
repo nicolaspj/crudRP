@@ -70,7 +70,8 @@
 
   /* home -> homeusu*/
 
-  .bodyHusu ,  .bodyEstadisticas ,  .bodyReporte , .bodyAltaAdmin {
+    
+    .bodyHusu ,  .bodyEstadisticas ,  .bodyReporte , .bodyAltaAdmin , .bodyAltaUsuario{
     background-color: black;   /* Fondo negro */
     color: white;              /* Texto en blanco para que sea visible en el fondo negro */
     min-height: 100vh;          /* Asegura que el fondo ocupe toda la altura de la ventana */

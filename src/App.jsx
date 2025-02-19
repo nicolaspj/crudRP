@@ -15,6 +15,7 @@ import NavBarHomeUsu from "./HomeUserAdmin/NavBarHomeUsu";
 import LogOutUser from "./LogIn/LogOutUser";
 import EdicionUser from "./HomeUserAdmin/Edicion/EdicionUser";
 import AltaAdmin from "./HomeUserAdmin/AltaAdmin";
+import AltaUsuarios from "./HomeUserAdmin/Alta/AltaUsuarios";
 import EdicionAdmin from "./HomeUserAdmin/Edicion/EdicionAdmin";
 import Estadisticas from "./HomeUserAdmin/Estadisticas";
 import Reporte from "./HomeUserAdmin/Reporte/Reporte";
@@ -38,6 +39,10 @@ function App() {
           element={<EdicionUser />}
         />
         <Route path="/HomeUserAdmin/AltaAdmin" element={<AltaAdmin />} />
+        <Route
+          path="/HomeUserAdmin/Alta/AltaUsuarios"
+          element={<AltaUsuarios />}
+        />
         <Route
           path="/HomeUserAdmin/Edicion/EdicionAdmin"
           element={<EdicionAdmin />}
