@@ -9,15 +9,16 @@ import {
 } from "react-router-dom"; // Importamos Router, Routes, y Route
 import LogInUser from "./LogIn/LogInUser"; // Tu componente de inicio de sesión
 import Home from "./Home/Home";
-import HomeUsu from "./HomeUserAdmin/EdicionProducto";
+import HomeUsu from "./HomeUserAdmin/Edicion/EdicionProducto";
 import HomeUser from "./HomeUserAdmin/HomeUser";
 import NavBarHomeUsu from "./HomeUserAdmin/NavBarHomeUsu";
 import LogOutUser from "./LogIn/LogOutUser";
-import EdicionUser from "./HomeUserAdmin/EdicionUser";
+import EdicionUser from "./HomeUserAdmin/Edicion/EdicionUser";
 import AltaAdmin from "./HomeUserAdmin/AltaAdmin";
-import EdicionAdmin from "./HomeUserAdmin/EdicionAdmin";
+import EdicionAdmin from "./HomeUserAdmin/Edicion/EdicionAdmin";
 import Estadisticas from "./HomeUserAdmin/Estadisticas";
 import Reporte from "./HomeUserAdmin/Reporte/Reporte";
+import InfoAdmin from "./HomeUserAdmin/Edicion/InfoAdmin";
 
 function App() {
   return (
@@ -28,12 +29,25 @@ function App() {
         <Route path="/LogIn/LogInUser" element={<LogInUser />} />
         <Route path="/LogIn/LogOutUser" element={<LogOutUser />} />
         <Route path="/HomeUserAdmin/HomeUser" element={<HomeUser />} />
-        <Route path="/HomeUserAdmin/EdicionProducto" element={<HomeUsu />} />
-        <Route path="/HomeUserAdmin/EdicionUser" element={<EdicionUser />} />
+        <Route
+          path="/HomeUserAdmin/Edicion/EdicionProducto"
+          element={<HomeUsu />}
+        />
+        <Route
+          path="/HomeUserAdmin/Edicion/EdicionUser"
+          element={<EdicionUser />}
+        />
         <Route path="/HomeUserAdmin/AltaAdmin" element={<AltaAdmin />} />
-        <Route path="/HomeUserAdmin/EdicionAdmin" element={<EdicionAdmin />} />
+        <Route
+          path="/HomeUserAdmin/Edicion/EdicionAdmin"
+          element={<EdicionAdmin />}
+        />
         <Route path="/HomeUserAdmin/Estadisticas" element={<Estadisticas />} />
         <Route path="/HomeUserAdmin/Reporte/Reporte" element={<Reporte />} />
+        <Route
+          path="/HomeUserAdmin/Edicion/InfoAdmin"
+          element={<InfoAdmin />}
+        />
       </Routes>
     </Router>
   );
