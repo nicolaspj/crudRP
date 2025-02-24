@@ -14,7 +14,7 @@ function LogInUser() {
     // Puedes validar las credenciales antes de redirigir
 
     // Redirige al usuario a la página de usuario después de iniciar sesión
-    navigate("/HomeUser/HomeUser"); // Ajusta la ruta según tu estructura de rutas
+    navigate("/"); // Ajusta la ruta según tu estructura de rutas
   };
 
   return (

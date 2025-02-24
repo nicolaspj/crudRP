@@ -28,18 +28,21 @@ function NavBarHomeUsu() {
             </Nav.Link>
             <Nav.Link href="/HomeUserAdmin/Estadisticas">Estadisticas</Nav.Link>
             <NavDropdown title="Productos" id="navbarScrollingDropdown">
-              <Nav.Link as={Link} to="/HomeUserAdmin/EdicionProducto">
+              <Nav.Link as={Link} to="/HomeUserAdmin/Edicion/EdicionProducto">
                 Edicion Producto
               </Nav.Link>
             </NavDropdown>
 
             <NavDropdown title="Usuarios" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/HomeUserAdmin/EdicionUser">
+              <NavDropdown.Item href="/HomeUserAdmin/Alta/AltaUsuarios">
+                Alta Usuario
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/HomeUserAdmin/Edicion/EdicionUser">
                 Editar Usuario
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Admins" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/HomeUserAdmin/EdicionAdmin">
+              <NavDropdown.Item href="/HomeUserAdmin/Edicion/EdicionAdmin">
                 Editar Admins
               </NavDropdown.Item>
               <NavDropdown.Item href="/HomeUserAdmin/AltaAdmin">

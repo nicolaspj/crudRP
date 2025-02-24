@@ -3,7 +3,7 @@ import "../../App.css";
 function Reporte() {
   return (
     <div className="bodyReporte">
-      <h1>nooo jajaj bodyReporte</h1>
+      <h1>Sitio en construccion</h1>
     </div>
   );
 }
