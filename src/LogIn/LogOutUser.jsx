@@ -12,7 +12,7 @@ function LogOutUser() {
     localStorage.removeItem("authToken"); // Elimina el token de autenticación, si lo tienes
 
     // Redirige al usuario a la página de login después de cerrar sesión
-    navigate("/Home/Home.jsx");
+    navigate("/");
   };
 
   return (
